@@ -1,0 +1,13 @@
+/home/pedroamf/workspace/CadastroPessoas/bin/Debug/netcoreapp3.1/CadastroPessoas
+/home/pedroamf/workspace/CadastroPessoas/bin/Debug/netcoreapp3.1/CadastroPessoas.deps.json
+/home/pedroamf/workspace/CadastroPessoas/bin/Debug/netcoreapp3.1/CadastroPessoas.runtimeconfig.json
+/home/pedroamf/workspace/CadastroPessoas/bin/Debug/netcoreapp3.1/CadastroPessoas.runtimeconfig.dev.json
+/home/pedroamf/workspace/CadastroPessoas/bin/Debug/netcoreapp3.1/CadastroPessoas.dll
+/home/pedroamf/workspace/CadastroPessoas/bin/Debug/netcoreapp3.1/CadastroPessoas.pdb
+/home/pedroamf/workspace/CadastroPessoas/obj/Debug/netcoreapp3.1/CadastroPessoas.csprojAssemblyReference.cache
+/home/pedroamf/workspace/CadastroPessoas/obj/Debug/netcoreapp3.1/CadastroPessoas.AssemblyInfoInputs.cache
+/home/pedroamf/workspace/CadastroPessoas/obj/Debug/netcoreapp3.1/CadastroPessoas.AssemblyInfo.cs
+/home/pedroamf/workspace/CadastroPessoas/obj/Debug/netcoreapp3.1/CadastroPessoas.csproj.CoreCompileInputs.cache
+/home/pedroamf/workspace/CadastroPessoas/obj/Debug/netcoreapp3.1/CadastroPessoas.dll
+/home/pedroamf/workspace/CadastroPessoas/obj/Debug/netcoreapp3.1/CadastroPessoas.pdb
+/home/pedroamf/workspace/CadastroPessoas/obj/Debug/netcoreapp3.1/CadastroPessoas.genruntimeconfig.cache
