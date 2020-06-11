@@ -22,12 +22,13 @@ namespace CadastroPessoas {
                         novo.Endereco = Console.ReadLine ();
 
                         Console.WriteLine ("Informe o telefone:");
-                        if (int.TryParse (Console.ReadLine (), out int Telefone)) {
-                            novo.Telefone = Telefone;
-                        } else {
-                            throw new ArgumentException ("Por favor digite o número de telefone correto");
-                        }
 
+                        int telefone;
+
+                        while (!int.TryParse (Console.ReadLine (), out telefone)) {
+                            Console.WriteLine ("Por favor digite o número de telefone correto");
+                        }
+                        novo.Telefone = telefone;
                         inserirPessoa[indicePessoa] = novo;
                         indicePessoa++;
 
@@ -35,8 +36,12 @@ namespace CadastroPessoas {
                     case "2":
                         //TODO: Listar Pessoas
                         foreach (var a in inserirPessoa) {
-                            if (!string.IsNullOrEmpty (a.Nome)) {
-                                Console.WriteLine ($"Nome: {a.Nome}\n Endereço: {a.Endereco}\n Telefone: {a.Telefone}\n");
+                            if (a != null) {
+                                if (!string.IsNullOrEmpty (a.Nome)) {
+                                    Console.WriteLine ($"Nome: {a.Nome}\n Endereço: {a.Endereco}\n Telefone: {a.Telefone}\n");
+                                }
+                            } else {
+                                break;
                             }
                         }
                         break;
